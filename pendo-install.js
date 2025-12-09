@@ -11,7 +11,7 @@
       // Please use Strings, Numbers, or Bools for value types.
       pendo.initialize({
           visitor: {
-            id:           sessionStorage.getItem('username'),
+            id:           '',
             email:        sessionStorage.getItem('email'),
             full_name:    sessionStorage.getItem('full_name'),
             role:         sessionStorage.getItem('role'),
